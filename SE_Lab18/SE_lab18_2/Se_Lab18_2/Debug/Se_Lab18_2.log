@@ -1,0 +1,77 @@
+﻿Сборка начата 05.12.2023 17:16:10.
+Уровень детализации журнала: Normal.     1>Проект "D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\Se_Lab18_2.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\Se_Lab18_2.tlog\Se_Lab18_2.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\Se_Lab18_2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Error.cpp FST.cpp GRB.cpp In.cpp IT.cpp LexAnalysis.cpp Log.cpp LT.cpp MFST.cpp Out.cpp Parm.cpp PN.cpp SE_Lab18.cpp
+         Error.cpp
+         FST.cpp
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\FST.cpp(57,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         GRB.cpp
+         In.cpp
+         IT.cpp
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\IT.cpp(77,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\IT.cpp(97,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         LexAnalysis.cpp
+         Log.cpp
+         LT.cpp
+         MFST.cpp
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\MFST.cpp(254,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         Out.cpp
+         Parm.cpp
+         PN.cpp
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\PN.cpp(74,21): warning C4129: @: неизвестная escape-последовательность
+         SE_Lab18.cpp
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\SE_Lab18.cpp(27,8): warning C4102: Log: неиспользованная метка
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\SE_Lab18.cpp(40,28): warning C4101: lt_position: неиспользованная локальная переменная
+         Создание кода...
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\PN.cpp(28): warning C4715: PolishNotation::Stack::push: значение возвращается не при всех путях выполнения
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\PN.cpp(16): warning C4715: PolishNotation::Stack::push: значение возвращается не при всех путях выполнения
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\PN.cpp(40): warning C4172: возвращение адреса локальной или временной переменной : temp
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\LT.cpp(23): warning C4715: LT::LexTable::GetEntry: значение возвращается не при всех путях выполнения
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\IT.cpp(159): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+     1>D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\IT.cpp(189): warning C4172: возвращение адреса локальной или временной переменной : buffer
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Debug\Se_Lab18_2.exe" /INCREMENTAL /ILK:"Debug\Se_Lab18_2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Debug\Se_Lab18_2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Debug\Se_Lab18_2.lib" /MACHINE:X86 Debug\Error.obj
+         Debug\FST.obj
+         Debug\GRB.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\LexAnalysis.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Out.obj
+         Debug\Parm.obj
+         Debug\PN.obj
+         Debug\SE_Lab18.obj
+         Se_Lab18_2.vcxproj -> D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Debug\Se_Lab18_2.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Se_Lab18_2.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Se_Lab18_2.tlog\Se_Lab18_2.lastbuildstate".
+     1>Сборка проекта "D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\Se_Lab18_2.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\Se_Lab18_2.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\FST.cpp(57,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\IT.cpp(77,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\IT.cpp(97,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\MFST.cpp(254,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\PN.cpp(74,21): warning C4129: @: неизвестная escape-последовательность
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\SE_Lab18.cpp(27,8): warning C4102: Log: неиспользованная метка
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\SE_Lab18.cpp(40,28): warning C4101: lt_position: неиспользованная локальная переменная
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\PN.cpp(28): warning C4715: PolishNotation::Stack::push: значение возвращается не при всех путях выполнения
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\PN.cpp(16): warning C4715: PolishNotation::Stack::push: значение возвращается не при всех путях выполнения
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\PN.cpp(40): warning C4172: возвращение адреса локальной или временной переменной : temp
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\LT.cpp(23): warning C4715: LT::LexTable::GetEntry: значение возвращается не при всех путях выполнения
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\IT.cpp(159): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+         D:\3_SEM_LABS\KPO\SE_Lab18\SE_lab18_2\Se_Lab18_2\IT.cpp(189): warning C4172: возвращение адреса локальной или временной переменной : buffer
+
+    Предупреждений: 13
+    Ошибок: 0
+
+Прошло времени 00:00:09.94

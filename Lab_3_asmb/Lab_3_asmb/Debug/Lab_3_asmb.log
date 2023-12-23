@@ -1,0 +1,23 @@
+﻿Сборка начата 13.11.2023 22:27:36.
+Уровень детализации журнала: Normal.     1>Проект "D:\3_SEM_LABS\KPO\Lab_3_asmb\Lab_3_asmb\Lab_3_asmb.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\Lab_3_asmb.tlog\Lab_3_asmb.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\Lab_3_asmb.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling lab3.asm...
+         cmd.exe /C "C:\Users\user\AppData\Local\Temp\tmpf8fe056be8dd46c99beb8b352f476c9e.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\lab3.obj" /Fl"Debug\\" /W3 /errorReport:prompt  /Talab3.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\3_SEM_LABS\KPO\Lab_3_asmb\Debug\Lab_3_asmb.exe" /INCREMENTAL /ILK:"Debug\Lab_3_asmb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\3_SEM_LABS\KPO\Lab_3_asmb\Debug\Lab_3_asmb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\3_SEM_LABS\KPO\Lab_3_asmb\Debug\Lab_3_asmb.lib" /MACHINE:X86 Debug\lab3.obj
+         Lab_3_asmb.vcxproj -> D:\3_SEM_LABS\KPO\Lab_3_asmb\Debug\Lab_3_asmb.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Lab_3_asmb.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lab_3_asmb.tlog\Lab_3_asmb.lastbuildstate".
+     1>Сборка проекта "D:\3_SEM_LABS\KPO\Lab_3_asmb\Lab_3_asmb\Lab_3_asmb.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.39

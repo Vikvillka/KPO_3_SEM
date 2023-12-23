@@ -1,0 +1,21 @@
+﻿Сборка начата 31.10.2023 0:25:28.
+Уровень детализации журнала: Normal.     1>Проект "D:\3_SEM_LABS\KPO\Lab_1_asmb\Lab_1_asmb\Lab_1_asmb.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Lab_1_asmb.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling asm01.asm...
+         cmd.exe /C "C:\Users\user\AppData\Local\Temp\tmp9c232d8ef1374484846cf3de5f959922.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\asm01.obj" /Fl"Debug\\" /W3 /errorReport:prompt  /Taasm01.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\3_SEM_LABS\KPO\Lab_1_asmb\Debug\Lab_1_asmb.exe" /INCREMENTAL /ILK:"Debug\Lab_1_asmb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\3_SEM_LABS\KPO\Lab_1_asmb\Debug\Lab_1_asmb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\3_SEM_LABS\KPO\Lab_1_asmb\Debug\Lab_1_asmb.lib" /MACHINE:X86 Debug\asm01.obj
+         Lab_1_asmb.vcxproj -> D:\3_SEM_LABS\KPO\Lab_1_asmb\Debug\Lab_1_asmb.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Lab_1_asmb.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lab_1_asmb.tlog\Lab_1_asmb.lastbuildstate".
+     1>Сборка проекта "D:\3_SEM_LABS\KPO\Lab_1_asmb\Lab_1_asmb\Lab_1_asmb.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.41

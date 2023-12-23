@@ -1,0 +1,23 @@
+﻿Сборка начата 05.12.2023 17:53:05.
+Уровень детализации журнала: Normal.     1>Проект "D:\3_SEM_LABS\KPO\SE_Lab019\SE_asm01aa\SE_asm01aa.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\SE_asm01aa.tlog\SE_asm01aa.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\SE_asm01aa.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling asm01a.asm...
+         cmd.exe /C "C:\Users\user\AppData\Local\Temp\tmp3716ae80b1624b8cb0e72830cfb13de7.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\asm01a.obj" /W3 /errorReport:prompt  /Taasm01a.asm
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\Lib.exe /OUT:"D:\3_SEM_LABS\KPO\SE_Lab019\Debug\SE_asm01aa.lib" /NOLOGO /MACHINE:X86 Debug\asm01a.obj
+         SE_asm01aa.vcxproj -> D:\3_SEM_LABS\KPO\SE_Lab019\Debug\SE_asm01aa.lib
+       FinalizeBuildStatus:
+         Файл "Debug\SE_asm01aa.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_asm01aa.tlog\SE_asm01aa.lastbuildstate".
+     1>Сборка проекта "D:\3_SEM_LABS\KPO\SE_Lab019\SE_asm01aa\SE_asm01aa.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.96

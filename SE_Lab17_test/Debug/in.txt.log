@@ -1,0 +1,11 @@
+
+--—- Протокол ——--
+Дата: 24.10.23 19:21:24
+--—- Параметры ——--
+ -in:	D:\3_SEM_LABS\KPO\SE_Lab17_test\Debug\in.txt
+ -out:	D:\3_SEM_LABS\KPO\SE_Lab17_test\Debug\in.txt.out
+ -log:	D:\3_SEM_LABS\KPO\SE_Lab17_test\Debug\in.txt.log
+--—- Исходные данные ——-- 
+Кол-во символов:	589
+Кол-во строк:		34
+Пропущенно:		0
